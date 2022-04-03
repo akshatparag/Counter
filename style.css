@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+}
+#app {
+  height: 400px;
+  width: 400px;
+  background-color: grey;
+  margin: auto;
+  padding: 7px;
+}
+#calculator {
+  height: 15%;
+  width: 100%;
+  background-color: black;
+}
+#txt {
+  display: inline-block;
+  color: white;
+  font-size: 1.2rem;
+  text-indent: 90%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#display {
+  height: 20%;
+  width: 100%;
+  background-color: seashell;
+  margin-top: 5px;
+}
+.btn {
+  height: 10%;
+  width: 22%;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 6px;
+  display: inline-block;
+}
+.btn0 {
+  width: 47%;
+}
+.btn-right {
+  background-color: rgb(221, 145, 109);
+}
+.btn:hover {
+  background-color: red;
+}
